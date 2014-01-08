@@ -1,12 +1,23 @@
 body {
-  font-family: "Source Sans Pro";
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #7F8C8D;
   font-style: normal;
-  font-weight: 400;
+  font-size: 16px;
   margin: 100px 0 0 100px;
+  line-height: 1.30;
+}
+
+h1, h2 {
+  font-size: 22px;
+  color: #2C3E50;
+}
+
+strong {
+  color: #000;
 }
 
 a {
-  color: #259dff;
+  color: #E74C3C;
   text-decoration: none;
 }
 
