@@ -39,6 +39,15 @@ ul li {
   margin-top: 50px;
 }
 
+.social {
+  margin-top: 50px;
+}
+
+.social li {
+  float: left;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 480px) {
   body { margin: 10px; }
   .contact { margin-top: 10px; }

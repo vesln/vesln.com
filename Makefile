@@ -25,7 +25,7 @@ build:
 	@$(MINIFY) index.html dist/index.html
 	@$(MINIFY) analytics.js dist/analytics.js
 	@$(MINIFY) style.css dist/style.css
-	@cp favicon.png dist/favicon.png
+	@cp -r img dist/
 
 #
 # Start the static file server
