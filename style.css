@@ -1,18 +1,17 @@
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #7F8C8D;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #3E3F3A;
   font-style: normal;
-  font-size: 16px;
-  margin: 100px 0 0 100px;
-  line-height: 1.30;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  line-height: 25px;
 }
 
 h1, h2 {
-  font-size: 22px;
-  color: #2C3E50;
-}
-
-strong {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
   color: #000;
 }
 
@@ -21,34 +20,44 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 10px 0;
+}
+
 a:hover {
   text-decoration: underline;
 }
 
-ul {
+.main {
+  max-width: 500px;
+  margin: 80px auto 0 auto;
+}
+
+ul.reach-out {
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
+}
+
+.contacts {
+  margin-top: 40px;
 }
 
 ul li {
+  margin-bottom: 6px;
+}
+
+.notice {
+  color: #aaa;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+ul.contact-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  margin-bottom: 10px;
 }
 
-.contact {
-  margin-top: 50px;
-}
-
-.social {
-  margin-top: 50px;
-}
-
-.social li {
-  float: left;
-  margin-right: 10px;
-}
-
-@media screen and (max-width: 480px) {
-  body { margin: 10px; }
-  .contact { margin-top: 10px; }
+@media screen and (max-width: 680px) {
+  .main { margin-top: 10px; }
 }
